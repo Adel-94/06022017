@@ -1,0 +1,17 @@
+data manipulyasiya dil muelumatlarin bazada idae olunmasi ucun istifade olunur.Avtomatik toredilmis deyil.Yeni DML emri ile edilen deyisiklikler 
+daimi deyil.Komandalara nezer salaq:
+1.INSERT. Bu komanda cedvele yeni  melumatlarin elave olunmasi ucun nezerde tutulmusdur.
+Sintaksisi asagidaki sekildedir:
+INSERT INTO table_name VALUES(data1,data2);
+Tutaq ki bizim telebeler cedvelimiz var ve burada id,name ve age qeyd olunub.
+INSERT INTO telebe VALUES (1,Adel,22) yazsaq bu melumatlar cedvelimize elave olunacaqdir.
+Eger biz INSERT INTO telebe VALUES (1,Adel,NULL) yazsaq bu zaman yasi NULL olaraq qebul edecek.Hec bir deyer menimsetmeyecek.
+
+2.UPDATE.   Bu komanda cedveli yenilemek ucun istifade olunur.
+Sintaksisi bu sekildedir:
+UPDATE table_name SET column_name=value WHERE condition;
+UPDATE telebeler SET age =24 where id =3;
+
+3.DELETE. Bu komanda cedvelden melumatlarin silinmesi ucun istifade olunur.
+DELETE FROM table_name;
+Yeni, DELETE FROM telebeler dediyimiz zaman ,telebeler cedvelindeki butun melumatlar silinecekdir.
