@@ -1,0 +1,11 @@
+Relationshipler ,elaqelere aid numuneler gosterek.
+1.One to one :  Bu elaqeye kinoteatrlari misal gostermek olar.Meselen, kinoteatrdaki  sirayla oturacaqlar ve tamasacilar  var.Her bir tamasaci
+salondaki 1 oturacagda eylese biler,1 yeri tuta biler.Eynile oturacaq terefinden baxsaq, bir oturacaqda bir tamasaci eylese biler.Bu one to one elaqedir.
+
+2.Many to many. Mektebde muellim ve sagird munasibetini misal gostere bilerik.Bir sagirde bir  nece muellim ders deye biler.hemcinin muellim terefinden baxsaq,
+bir muellim bir nece sagirde ders deye biler.Coxun coxa elaqedediyimiz elaqe budur.
+
+3.One to many.
+Bir xeber sayti ,jurnal fikirlesek.Bir xeber bir kateqoriyaya aid olsa da,bir kateqoriyaya aid cox sayda xeber ola biler.
+  Qeyd.Dediklerimin database -ni image faylinda u repoda yerlesdirmisem.
+
